@@ -65,7 +65,6 @@ li{
 .servicios-bloque2-container{
     background-color: var(--blanco);
     padding: 0;
-    height: 650px;
 }
 
 .bloque1-imgs1{
@@ -104,7 +103,7 @@ li{
 .servicios-bloque2{
     display: flex;
     width: 1200px;
-    height: 600px;
+    height: 700px;
     margin: 0;
 }
 
@@ -138,15 +137,15 @@ li{
     display: flex;
     justify-content:center;
     flex-basis: 60%;
-    height:600px;
+    height:700px;
 
 }
 
 .bloque2-img{
     background-image: url(https://images03.nicepage.com/c461c07a441a5d220e8feb1a/65807345b55150a3bd37b0f7/OBC8MR0.jpg);
     flex-basis: 60%;
-    height: 650px;
+    height: 700px;
     width: 100%;
     background-size: cover;
-    background-position: 0% 25%;
+    background-position: 0% 0%;
 }
