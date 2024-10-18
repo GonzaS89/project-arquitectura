@@ -1,8 +1,8 @@
 import React from 'react';
 import '../Estilos/Contacto.css';
-import { FaLocationDot } from "react-icons/fa6";
-import { FaPhoneAlt } from "react-icons/fa";
-import { FaClock } from "react-icons/fa";
+// import { FaLocationDot } from "react-icons/fa6";
+// import { FaPhoneAlt } from "react-icons/fa";
+// import { FaClock } from "react-icons/fa";
 import { Infocontacto } from '../Minicomponentes/Infocontacto';
 
 
@@ -18,9 +18,9 @@ export const Contacto = () => {
             </div>
             <div className="contacto-dire-mail">
                 <div className="dire-container">
-                    <Infocontacto icon = {FaLocationDot} texto = {'Av. Colon 850 - San Miguel de Tucumán - Tucumán'}/>
-                    <Infocontacto icon = {FaPhoneAlt} texto = {'(0381) - 4626971'}/>
-                    <Infocontacto icon = {FaClock} texto = {'Lunes-Viernes: 09:00 a 20:00 Hrs / Sábados: 09:00 a 12:00'}/>
+                    <Infocontacto texto = {'Av. Colon 850 - San Miguel de Tucumán - Tucumán'}/>
+                    <Infocontacto texto = {'(0381) - 4626971'}/>
+                    <Infocontacto texto = {'Lunes-Viernes: 09:00 a 20:00 Hrs / Sábados: 09:00 a 12:00'}/>
                 </div>
                 <form action="" className='mail-container'>
                     <input type="text" placeholder='Decinos tu nombre'/>
