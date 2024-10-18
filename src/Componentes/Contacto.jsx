@@ -3,7 +3,7 @@ import '../Estilos/Contacto.css';
 // import { FaLocationDot } from "react-icons/fa6";
 // import { FaPhoneAlt } from "react-icons/fa";
 // import { FaClock } from "react-icons/fa";
-import { Infocontacto } from '../Minicomponentes/Infocontacto';
+import { Infocontacto } from './Infocontacto';
 
 
 export const Contacto = () => {

@@ -1,6 +1,6 @@
 import React from "react";
 import '../Estilos/Virtudes.css'
-import { Virtud } from "../Minicomponentes/Virtud";
+import { Virtud } from "./Virtud";
 
 export const Virtudes = () => {
   const valoresVirtudes = [

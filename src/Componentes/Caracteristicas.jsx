@@ -3,7 +3,7 @@ import '../Estilos/Caracteristicas.css';
 import { FaBuilding } from "react-icons/fa";
 import { IoConstruct } from "react-icons/io5";
 import { FaUserAlt } from "react-icons/fa";
-import { Caracteristica } from '../Minicomponentes/Caracteristica';
+import { Caracteristica } from './Caracteristica';
 
 
 
