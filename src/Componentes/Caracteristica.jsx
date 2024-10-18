@@ -6,9 +6,9 @@ import { FaUserAlt } from "react-icons/fa";
 export const Caracteristica = ({title}) => {
 
   const retonarIcono = ref => {
-    if(ref === 'construccion'){return <FaBuilding className='caracteristica-icono'/>}
-    else if(ref === 'planificacion') {return <IoConstruct className='caracteristica-icono'/>}
-    else if(ref === 'atencion') {return <FaUserAlt className='caracteristica-icono'/>}
+    if(ref === 'construcción'){return <FaBuilding className='caracteristica-icon'/>}
+    else if(ref === 'planificación') {return <IoConstruct className='caracteristica-icon'/>}
+    else if(ref === 'atención') {return <FaUserAlt className='caracteristica-icon'/>}
   }
 
   return (
