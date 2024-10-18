@@ -18,6 +18,11 @@
 
   --gradientNaranja : linear-gradient(to right, #ff6918, #f43702);
 
+  --screenXL : 1200px;
+  --scrrenL : 1024px;
+  --screnM : 768px;
+  --screenS : 480px;
+
 }
 
 .App {
