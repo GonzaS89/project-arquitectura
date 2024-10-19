@@ -250,6 +250,11 @@ li{
         font-size: 14px;
         width: 80%;
     }
+    
+    .bloque2-text{
+        width: 100%;
+        text-align: justify;
+    }
 
     li{
         font-size: 14px;

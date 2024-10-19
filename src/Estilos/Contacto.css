@@ -126,11 +126,11 @@
 @media (max-width: 768px) {
 
     .contacto-container{
-        padding: 50px;
+        padding: 50px 0;
         height: auto
     }
     .contacto{
-        max-width: 750px;
+        width: calc(100% - 50px);
         padding: 20px;
     }
 

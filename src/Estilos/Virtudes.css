@@ -156,10 +156,13 @@
 
     .virtudes-title{
         font-size:35px;
+        text-align: left;
     }
 
     .virtudes-text{
         font-size:15px;
+        width: 100%;
+        text-align:justify;
     }
 }
 
