@@ -60,13 +60,10 @@
 }
 
 .icon-contacto{
-    background-color: var(--naranjaClaro);
+    color: var(--naranjaClaro);
     border-radius: 50%;
-    font-size: 2px;
-    padding: 10px;
-    color: white;
+    font-size: 50px;
     height: 45px;
-    width: 45px;
 }
 
 .parraph-contacto{
@@ -142,10 +139,18 @@
         width: 80%;
     }
 
-    .icon-contacto{
-        width: 30px;
-        height: 30px;
-        padding: 10px
-    }
+   .icon-contacto{
+        height: 20px;
+   }
+
+   .parraph-contacto{
+    text-align: center;
+    flex-basis: 75%;
+   }
+
+   .mail-container{
+    gap: 30px;
+   }
+
 }
 
