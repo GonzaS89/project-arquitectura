@@ -6,22 +6,26 @@
   background-image: url(https://images03.nicepage.com/c461c07a441a5d220e8feb1a/87b387a9d4145b31a517b454/2686700.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center right;
 }
 
 .portada-container_texto {
   width: 1200px;
+  margin: 0 auto;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
   gap: 30px;
+  padding: 0 50px;
 }
 
 .portada-title{
     font-size: 100px;
     text-align:left;
-    width: 600px;
+    width: 50%;
     line-height: 1;
+    text-shadow: 2px 2px 1px white;
 }
 
 .portada-description{
@@ -29,6 +33,32 @@
     color: var(--grisIntermedio) !important;
     font-weight: 600;
     font-size:20px;
-    width: 500px;
+    width: 50%;
     text-align: left;
+}
+
+@media (max-width: 1200px) {
+  .portada-container{
+    background-position: right center;
+  }
+
+  .portada-title{
+    font-size:80px;
+  }
+
+  .portada-description{
+    width: 35%;
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 990px){
+  .portada-container{
+    background-size: cover;
+  }
+
+  .portada-title{
+    font-size:65px;
+    width: 35%;
+  }
 }

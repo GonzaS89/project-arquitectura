@@ -149,3 +149,11 @@ li{
     background-size: cover;
     background-position: 0% 0%;
 }
+
+@media (max-width: 1200px){
+    .servicios-bloque1{
+        width: 940px
+    }
+}
+
+

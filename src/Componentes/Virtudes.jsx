@@ -34,7 +34,7 @@ export const Virtudes = () => {
     <section className="virtudes-container">
         <div className="virtudes">
         {valoresVirtudes.map((virtud, index) => (
-        <Virtud fondo={virtud.fondo} id={virtud.id} titulo={virtud.titulo} color = {virtud.color}/>
+        <Virtud fondo={virtud.fondo} key={index} id = {virtud.id} titulo={virtud.titulo} color = {virtud.color}/>
       ))}
         </div>
         <div className="virtudes-texto_container">
