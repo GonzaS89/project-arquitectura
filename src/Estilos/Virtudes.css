@@ -116,8 +116,7 @@
     .virtudes{
         flex-wrap: 
         wrap;
-        width: 100%;
-        padding: 0 40px;
+        width: calc(100% - 50px);
     }
     .virtud-container{
         width: 50%;
