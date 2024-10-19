@@ -20,14 +20,12 @@ export const Servicios = () => {
                     <li>Fabricación</li>
                 </ul>
             </div>
-            <div className="bloque1-imgs">
               <div className="bloque1-imgs1">
               </div>
                <div className="bloque1-imgs2">
                 <span className='img1'></span>
                 <span className='img2'></span>
                </div>
-            </div>
         </div>
       </div>
         <div className="servicios-bloque2-container">
