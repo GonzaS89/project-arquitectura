@@ -19,10 +19,10 @@
     width: 1200px;
     justify-content: center;
     position: relative;
-    background-color: red;
 }
 
 .listacaracteristicas{
+    width: 100%;
     position: absolute;
     display: flex;
     justify-content: center;
@@ -37,7 +37,7 @@
     justify-content: space-evenly;
     background-color: var(--blanco);
     gap: 20px;
-    height: 320px;
+    height: 300px;
     width: 320px;
     border: 1px solid rgba(128, 128, 128, 0.5);
     padding: 10px 0;
@@ -59,7 +59,49 @@
 }
 
 .caracteristica-text{
-    font-size: 16px;
+    font-size: 15px;
     padding: 0 20px;
+    line-height: 2;
+    font-style: italic;
 }
 
+@media (max-width: 1200px) {
+    .listacracteristicas-container{
+        width: 100%;
+    }
+}
+
+@media (max-width: 990px) {
+
+    .caracteristicas-container{
+        height: 1100px;
+    }
+
+    .img-container{
+        height: 50%
+    }
+
+    .listacaracteristicas{
+        flex-wrap: wrap;
+        height: 50%;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .caracteristicas-container{
+        height: 1300px;
+    }
+
+    .caracteristica-container{
+        width: 90%;
+    }
+
+    .img-container{
+        height:35%
+    }
+
+    .listacaracteristicas{
+        height:65%
+    }
+}

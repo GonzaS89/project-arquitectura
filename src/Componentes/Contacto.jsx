@@ -18,9 +18,9 @@ export const Contacto = () => {
             </div>
             <div className="contacto-dire-mail">
                 <div className="dire-container">
-                    <Infocontacto texto = {'Av. Colon 850 - San Miguel de Tucumán - Tucumán'}/>
-                    <Infocontacto texto = {'(0381) - 4626971'}/>
-                    <Infocontacto texto = {'Lunes-Viernes: 09:00 a 20:00 Hrs / Sábados: 09:00 a 12:00'}/>
+                    <Infocontacto texto = {'Av. Colon 850 - San Miguel de Tucumán - Tucumán'} referencia = {'dir'}/>
+                    <Infocontacto texto = {'(0381) - 4626971'} referencia = {'tel'}/>
+                    <Infocontacto texto = {'Lunes-Viernes: 09:00 a 20:00 Hrs / Sábados: 09:00 a 12:00'} referencia = {'hora'}/>
                 </div>
                 <form action="" className='mail-container'>
                     <input type="text" placeholder='Decinos tu nombre'/>

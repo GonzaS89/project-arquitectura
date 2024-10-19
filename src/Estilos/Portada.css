@@ -42,6 +42,10 @@
     background-position: right center;
   }
 
+  .portada-container_texto{
+    width: 100%;
+  }
+
   .portada-title{
     font-size:80px;
   }

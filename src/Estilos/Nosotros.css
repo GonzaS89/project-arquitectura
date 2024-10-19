@@ -13,7 +13,8 @@
     justify-content: space-between;
     align-items: center;
     height: 70%;
-    width: 1100px;
+    max-width: 1100px;
+
 }
 
 
@@ -32,6 +33,10 @@
     line-height: 2;
 }
 
+.nosotros-title{
+    text-align: left;
+}
+
 .viñeta{
     width: 100px;
     height: 10px;
@@ -43,5 +48,59 @@
     height: 80%;
     background-image: url(https://images03.nicepage.com/c461c07a441a5d220e8feb1a/ddf7a6ac371d52c5a93f73f1/fisheyeshotnewresitentialbuildings_97070952.jpg);
     background-size: fill;
+}
+
+@media (max-width: 1200px) {
+    .nosotros{
+        max-width: 940px;
+    }
+}
+
+@media (max-width: 990px) {
+    .nosotros{
+        max-width: 740px;
+    }
+
+    .nosotros-img{
+        width: 20%;
+        height: 100%;
+    }
+
+    .nosotros-parraph{
+        font-size: 15px;
+    }
+
+    .nosotros-title{
+        font-size:40px;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .nosotros-container{
+        height: auto;
+    }
+
+    .nosotros{
+        width: calc(100% - 50px);
+        flex-direction: column;
+        align-items: center;
+        padding: 50px 0;
+        gap: 50px
+    }
+
+    .nosotros-text{
+        width: 100%;
+        justify-content: center;
+        gap: 30px;
+    }
+
+    .nosotros-img{
+        width: 100%;
+        height: 500px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        
+    }
 }
 

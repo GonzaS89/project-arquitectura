@@ -100,3 +100,52 @@
         font-family: var(--fuenteParrafo);
     }
 }
+
+@media (max-width: 1200px) {
+    .contacto{
+        max-width: 940px;
+    }
+}
+
+@media (max-width: 990px) {
+    .contacto{
+        max-width: 750px;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .contacto-container{
+        padding: 50px;
+        height: auto
+    }
+    .contacto{
+        max-width: 750px;
+        padding: 20px;
+    }
+
+    .contacto-dire-mail{
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .contacto-title{
+        font-size: 40px;
+    }
+
+    .contacto-subtitle{
+        font-size:15px;
+    }
+
+    .contacto-parraph{
+        font-size:13px;
+        width: 80%;
+    }
+
+    .icon-contacto{
+        width: 30px;
+        height: 30px;
+        padding: 10px
+    }
+}
+
